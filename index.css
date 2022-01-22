@@ -1,0 +1,73 @@
+* {
+  /* border: 1px solid red; */
+}
+
+nav {
+  /* border: 5px solid blue; */
+}
+
+ul {
+  /* border: 2px solid black; */
+}
+
+li {
+  /* border: 2px dotted green; */
+}
+
+a {
+  /* background-color: yellow; */
+}
+
+nav {
+  border: 1px solid #333;
+  width: 50%;
+  margin: 1rem auto;
+  /* padding: 1rem; */
+  background-color: #eee;
+  background-image: url(https://assets.codepen.io/296057/lil-graydots.png);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  /* padding: 0.5rem 1em; */
+}
+
+nav li:hover {
+  /* background-color: #f0c808; */
+}
+
+nav a {
+  color: #00bff3;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: block;
+  padding: 0.5rem 1em;
+}
+
+nav a:focus {
+  background-color: #f0c808;
+  color: black;
+}
+
+nav a:hover {
+  color: #ff583d;
+  background-color: #f0c808;
+  background-image: url(https://assets.codepen.io/296057/lil-yellowdots.png);
+}
+
+.active {
+  color: #ff583d;
+  background-color: #c5e5ed;
+  border-top: 5px solid #00bff3;
+  border-bottom: 5px solid #00bff3;
+  background-image: url(https://assets.codepen.io/296057/lil-bluedots.png);
+}
+.active:hover {
+  background-color: red;
+}
