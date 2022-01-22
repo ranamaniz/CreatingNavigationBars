@@ -1,0 +1,14 @@
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.5rem;
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+nav a {
+  padding: 0.5rem 1rem;
+  display: block;
+  border: 1px solid red;
+}
